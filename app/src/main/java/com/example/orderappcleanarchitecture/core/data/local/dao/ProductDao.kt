@@ -12,6 +12,9 @@ interface ProductDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertProduct(productEntity: ProductEntity): Long //Returns ID of inserted Product
 
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertProducts(list: List<ProductEntity>) //Returns ID of inserted Product
+
 
     @Query("SELECT * FROM ProductEntity WHERE belongsToVendor = :vendorId")
     suspend fun getProductsByVendorId(vendorId: Long): List<ProductEntity>
