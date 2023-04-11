@@ -1,9 +1,9 @@
 package com.example.orderappcleanarchitecture.core.domain.model
 
+import com.example.orderappcleanarchitecture.core.domain.FilterableAndSortableByName
+
 data class Product(
     val productId: Long,
-    val name: String,
+    override val name: String,
     val pricePerUnitDollars: Double,
-    val vendorId: Long,
-    val vendorName: String
-)
+): FilterableAndSortableByName

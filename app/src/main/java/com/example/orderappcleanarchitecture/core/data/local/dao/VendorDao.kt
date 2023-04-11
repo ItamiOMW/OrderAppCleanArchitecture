@@ -14,7 +14,7 @@ interface VendorDao {
 
     @Transaction
     @Query("SELECT * FROM VendorEntity")
-    suspend fun getVenders(): List<VendorWithProductsDataObject>
+    suspend fun getVendors(): List<VendorWithProductsDataObject>
 
 
     @Query("SELECT * FROM VendorEntity WHERE vendorId = :vendorId")
