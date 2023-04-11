@@ -1,4 +1,4 @@
-package com.example.orderappcleanarchitecture.vender_feature.data.mapper
+package com.example.orderappcleanarchitecture.vendor_feature.data.mapper
 
 import com.example.orderappcleanarchitecture.core.data.local.entitiy.VendorEntity
 import com.example.orderappcleanarchitecture.core.domain.model.Vendor

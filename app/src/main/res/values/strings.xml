@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">OrderAppCleanArchitecture</string>
+    <string name="title_order_overview">Order Overview</string>
+    <string name="desc_add_order">Add order</string>
+    <string name="text_no_orders">There are no orders yet</string>
+    <string name="text_ordered_from">Ordered from %s</string>
+    <string name="text_total_sum">Total sum</string>
+    <string name="title_vendor_selection">Vendor Selection</string>
+    <string name="desc_navigate_back">Navigate back</string>
+    <string name="label_search_vendor">Search vendor</string>
+    <string name="title_products">Products</string>
+    <string name="desc_show_confirm_dialog">Show dialog to confirm order</string>
+    <string name="text_order_confirmed">Order confirmed</string>
+    <string name="label_search_product">Search Product</string>
+    <string name="desc_icon_checkmark">Checkmark icon</string>
 </resources>
